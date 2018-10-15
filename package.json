@@ -1,0 +1,19 @@
+{
+  "name": "26-tooling-react",
+  "version": "1.0.0",
+  "description": "Counter App",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bend-javascript-401d1-lab/26-tooling-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bend-javascript-401d1-lab/26-tooling-react/issues"
+  },
+  "homepage": "https://github.com/bend-javascript-401d1-lab/26-tooling-react#readme"
+}
