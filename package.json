@@ -1,17 +1,23 @@
 {
-  "name": "counter",
+  "name": "react-counter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Make a counter in react js",
+  "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "watch": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
-    "lint": "eslint **/*.js"
+    "build": "webpack --config webpack.prod.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharonmiller/26-tooling-react.git"
+  },
+  "author": "Sharon Miller <sharonmillerdev@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharonmiller/26-tooling-react/issues"
+  },
+  "homepage": "https://github.com/sharonmiller/26-tooling-react#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
@@ -44,6 +50,8 @@
     "webpack-merge": "^4.1.3"
   },
   "dependencies": {
-    "dotenv": "^6.0.0"
+    "cowsay": "^1.3.1",
+    "dotenv": "^6.0.0",
+    "faker": "^4.1.0"
   }
 }

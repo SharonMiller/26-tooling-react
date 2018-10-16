@@ -3,16 +3,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/app.js';
+import App from './components/app';
 
 class Main extends React.Component {
-  render() {
-    return (
+  
+  render(){
+    return(
       <React.Fragment>
-        <App />
+        <App/>
       </React.Fragment>
     );
   }
 }
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<Main/>, document.getElementById('root'));
